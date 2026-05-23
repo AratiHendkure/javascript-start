@@ -45,3 +45,35 @@ const myFunction = function(){
 
 console.log(typeof myFunction)
 
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Two type of memories
+// 1 Stack (primitive), 2 Heap(non- Primitive)
+
+let myYoutubenmae = 'aratihendkure.com'
+
+
+let anothername = myYoutubenmae;
+anothername = "another arati hendkure"
+
+console.log(anothername)
+console.log(myYoutubenmae)
+
+//heap
+
+let user = {
+    email: "user@gamil.com",
+    upi: "1234AS"
+}
+
+let user2 = user
+
+user2.email = "arati@gmail.com"
+
+console.log(user.email)
+console.log(user2.email)
+
+
+
+
